@@ -40,5 +40,6 @@ func gracefulShutdown(server *http.Server) {
 		if err != nil {
 			logrus.Errorf("error closing server (%s): %v", server.Addr, err)
 		}
+		
 	}
 }
